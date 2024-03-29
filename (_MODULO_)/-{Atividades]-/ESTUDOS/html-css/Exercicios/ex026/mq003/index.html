@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/retrato.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilo/paisagem.css" media="screen and (orientation: landscape)">
+    <title>Media Query</title>
+    <style>
+        @charset "UTF-8";
+
+        /*Configuracoes gerais*/
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html, body{
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+
+        }
+
+        h1{
+            color: white;
+            text-shadow: 3px 3px 0px #1d31ca;
+            text-align: center;
+        }
+
+        /*Declaracoes Retrato*/
+        @media screen and (orientation: portrait) {
+            body{
+                background: url('image/cev-portrait.jpg') center bottom no-repeat fixed;
+                background-size: cover;
+            }
+            
+        }
+
+        /*Declaracoes Paisagem*/
+        @media screen and (orientation: landscape){
+            body{
+                background: url('image/cev-landscape.jpg') left bottom no-repeat fixed;
+                background-size: contain;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientacao do seu dispositivo</h1>
+    
+</body>
+</html>

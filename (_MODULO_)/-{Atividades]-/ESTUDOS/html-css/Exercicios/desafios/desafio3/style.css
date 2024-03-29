@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+table{
+    background-color: lightgray;
+    margin: auto;
+    width: 900px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+th{
+    background-color: rgb(69, 75, 77);
+    color: aliceblue;
+}

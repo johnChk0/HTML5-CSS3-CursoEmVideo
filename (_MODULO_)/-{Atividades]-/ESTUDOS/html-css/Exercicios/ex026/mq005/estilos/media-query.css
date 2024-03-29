@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media print{
+
+}
+
+@media screen and (min-width: 768px){
+   
+    span#burguer{
+        display: none;
+    }
+
+    menu ul {
+        display: flex;
+        gap: 20px;
+        
+    }
+
+    menu a{
+        background-color: none;
+        border: none;
+    }
+
+    main{
+        max-width: 768px;
+        columns: 2;
+    }
+}

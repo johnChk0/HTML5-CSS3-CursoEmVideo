@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color:black;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-variant: small-caps;
+    font: italic bold 2em arial;
+}
+
+table{
+width: 50vh;
+height: 25vh;
+margin: auto;
+}
+
+main{
+    padding-top: 220px;
+}
+
+td{
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font: normal bold 1.2em arial;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}

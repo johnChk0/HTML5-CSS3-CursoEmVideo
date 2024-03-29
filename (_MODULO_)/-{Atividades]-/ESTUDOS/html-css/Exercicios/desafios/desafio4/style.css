@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+}
+
+table{
+    width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+th{
+    background-color: rgb(75, 74, 74);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+}

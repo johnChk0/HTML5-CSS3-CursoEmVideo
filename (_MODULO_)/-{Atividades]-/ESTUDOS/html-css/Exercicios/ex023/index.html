@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        table{
+            margin: auto;
+            height: auto;
+            width: 250px;
+        }
+        body{
+            background-color: aqua;
+            height: 100vh;
+        }
+        td{
+            border: 2px solid black;
+            padding: 10px;
+            
+        }
+        td.blo{
+            min-width: 100px;
+        }
+        table{
+            border-collapse:collapse ;
+        }
+        td.bloco{
+            background-color: brown;
+            min-width: 200px;
+            font: normal bold 1.2em arial;
+            text-align: center;
+            color: aliceblue;
+            text-shadow: 5px 5px 101px black;
+        }
+    </style>
+</head>
+<body>
+    <caption>Mesclagem de Celulas</caption>
+    <table>
+        <tr>
+            <td class="blo"><a href="#">A. 1 Dica</a></td>
+            <!--<td>B</td> -->  
+            <td rowspan="4" class="bloco">COMO NAO SER IGUAL O JONATAS</td>  
+          
+        </tr>
+        <tr>
+            
+            <td class="blo">D. 2 Dica</td>
+            <!--<td>E</td>  -->     
+            <!--<td>F</td> -->
+
+        </tr>
+        <tr>
+            <td class="blo">G. 3 Dica</td>
+            <!--<td>H</td>-->
+           <!-- <td>I</td> -->
+        </tr>
+        <tr>
+            <td colspan="2" class="blo">J. 4 Dica</td>
+            <!--<td>K</td>-->
+            <!--<td>L</td>-->
+        </tr>
+    </table>
+    
+</body>
+</html>
